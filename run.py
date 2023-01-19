@@ -8,7 +8,7 @@ relay_pin = 18
 on_duration = 2
 
 # Set the interval for the egg roller to turn on (in seconds)
-interval = 10
+interval = 2
 
 # Set up the GPIO pin for output
 GPIO.setmode(GPIO.BCM)
