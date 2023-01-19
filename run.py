@@ -17,9 +17,11 @@ GPIO.setup(relay_pin, GPIO.OUT)
 while True:
     # Turn on the power relay (and egg roller)
     GPIO.output(relay_pin, GPIO.HIGH)
+    print("ON")
     # Wait for the on duration
     time.sleep(on_duration)
     # Turn off the power relay (and egg roller)
     GPIO.output(relay_pin, GPIO.LOW)
+    print("OFF")
     # Wait for the interval before turning on again
     time.sleep(interval)
