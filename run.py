@@ -7,10 +7,10 @@ from datetime import datetime
 relay_pin = 17
 
 # Set the duration for the egg roller to be on (in seconds)
-on_duration = 2
+on_duration = 120
 
 # Set the interval for the egg roller to turn on (in seconds)
-interval = 10
+interval = 14280
 
 # Set up the GPIO pin for output
 GPIO.setmode(GPIO.BCM)
